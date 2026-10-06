@@ -1,0 +1,320 @@
+/* Original font metrics for Latin text, without applying old layout. */
+:root{--hh-original-english-size:16px;--hh-original-english-family:"Microsoft YaHei",sans-serif;--hh-original-english-weight:400;--hh-original-english-spacing:normal;}
+body{--hh-original-english-family:"PingFang SC","Microsoft YaHei",sans-serif;}
+.brand{--hh-original-english-size:18px;--hh-original-english-spacing:.06em;--hh-original-english-weight:600;}
+.seal{--hh-original-english-size:25px;--hh-original-english-family:serif;}
+.brand small{--hh-original-english-size:11px;--hh-original-english-weight:400;--hh-original-english-spacing:.16em;}
+.header-tools button{--hh-original-english-size:13px;}
+.eyebrow{--hh-original-english-size:10px;--hh-original-english-spacing:.16em;--hh-original-english-weight:600;}
+h1,h2,h3{--hh-original-english-family:"Songti SC","Noto Serif CJK SC",STSong,SimSun,serif;--hh-original-english-weight:500;}
+h1{--hh-original-english-size:34px;}
+.theme{--hh-original-english-size:16px;}
+.instruction{--hh-original-english-size:13px;}
+.place-list button{--hh-original-english-size:13px;}
+.place-list b{--hh-original-english-family:Georgia,serif;--hh-original-english-size:15px;--hh-original-english-weight:400;}
+.course{--hh-original-english-size:10px;}
+.map-top h2{--hh-original-english-size:23px;}
+.map-tag{--hh-original-english-size:11px;}
+.map-center>span{--hh-original-english-size:12px;--hh-original-english-spacing:.25em;}
+.map-center strong{--hh-original-english-size:30px;--hh-original-english-family:serif;--hh-original-english-spacing:.12em;--hh-original-english-weight:400;}
+.map-center small{--hh-original-english-size:10px;--hh-original-english-spacing:.09em;}
+.node-number{--hh-original-english-size:12px;--hh-original-english-family:Georgia,serif;}
+.node-label{--hh-original-english-size:14px;--hh-original-english-weight:600;}
+.node-subtitle{--hh-original-english-size:10px;}
+.map-bottom{--hh-original-english-size:10px;}
+footer{--hh-original-english-size:11px;}
+.sheet-head>span{--hh-original-english-size:12px;}
+#backMap{--hh-original-english-size:13px;}
+.icon-close{--hh-original-english-size:28px;--hh-original-english-weight:300;}
+.stop-kicker{--hh-original-english-size:12px;--hh-original-english-spacing:.14em;}
+.sheet-content h2{--hh-original-english-size:39px;}
+.stop-intro{--hh-original-english-size:18px;}
+.image-open span{--hh-original-english-size:11px;}
+.stop-photo figcaption,.detail-photo figcaption{--hh-original-english-size:11px;}
+.keywords-label{--hh-original-english-size:12px;}
+summary{--hh-original-english-size:19px;}
+summary .key-no{--hh-original-english-size:14px;--hh-original-english-family:Georgia,serif;}
+summary .key-tag{--hh-original-english-size:10px;}
+summary .plus{--hh-original-english-size:23px;--hh-original-english-weight:300;}
+.detail-text{--hh-original-english-size:17px;}
+.detail-text blockquote{--hh-original-english-size:24px;--hh-original-english-family:serif;}
+.detail-text .source{--hh-original-english-size:12px;}
+.book{--hh-original-english-size:12px;}
+.pause>span{--hh-original-english-size:11px;--hh-original-english-spacing:.12em;}
+.pause h3{--hh-original-english-size:26px;}
+.pause p{--hh-original-english-size:14px;}
+.pause summary{--hh-original-english-size:13px;}
+.pause .detail-text{--hh-original-english-size:15px;}
+.small-note{--hh-original-english-size:11px;}
+.utility h2{--hh-original-english-size:36px;}
+.utility>p{--hh-original-english-size:15px;}
+.route-row>b{--hh-original-english-size:26px;--hh-original-english-family:Georgia,serif;--hh-original-english-weight:400;}
+.route-row strong{--hh-original-english-size:16px;--hh-original-english-weight:500;}
+.route-row small{--hh-original-english-size:12px;}
+.end-question>span{--hh-original-english-size:11px;}
+.end-question h3{--hh-original-english-size:26px;}
+.end-question p{--hh-original-english-size:13px;}
+.source-item a{--hh-original-english-size:16px;}
+.source-item p{--hh-original-english-size:13px;}
+#imageDialog .utility-head{--hh-original-english-size:13px;}
+#imageCaption{--hh-original-english-size:13px;}
+#imageSource{--hh-original-english-size:12px;}
+@media(min-width:1550px){h1{--hh-original-english-size:40px;}
+.node-label{--hh-original-english-size:16px;}}
+@media(max-width:1100px){h1{--hh-original-english-size:28px;}
+.theme{--hh-original-english-size:14px;}
+.node-label{--hh-original-english-size:12px;}
+.node-subtitle{--hh-original-english-size:9px;}
+.map-center strong{--hh-original-english-size:24px;}
+.map-bottom{--hh-original-english-size:9px;}}
+@media(max-width:750px){.brand{--hh-original-english-size:14px;}
+.seal{--hh-original-english-size:21px;}
+.brand small{--hh-original-english-size:9px;}
+.header-tools button{--hh-original-english-size:11px;}
+.intro>.eyebrow{--hh-original-english-size:9px;}
+h1{--hh-original-english-size:26px;}
+.theme{--hh-original-english-size:12px;}
+.map-top .eyebrow{--hh-original-english-size:8px;}
+.map-top h2{--hh-original-english-size:20px;}
+.map-tag{--hh-original-english-size:9px;}
+.node-number{--hh-original-english-size:10px;}
+.node-label{--hh-original-english-size:11px;}
+.node-subtitle{--hh-original-english-size:8px;}
+.map-center>span{--hh-original-english-size:10px;}
+.map-center strong{--hh-original-english-size:21px;--hh-original-english-spacing:.03em;}
+.map-center small{--hh-original-english-size:8px;--hh-original-english-spacing:0;}
+.map-bottom{--hh-original-english-size:8px;}
+footer{--hh-original-english-size:9px;}
+#backMap{--hh-original-english-size:12px;}
+.sheet-head>span{--hh-original-english-size:10px;}
+.sheet-content h2{--hh-original-english-size:30px;}
+.stop-intro{--hh-original-english-size:16px;}
+.stop-kicker{--hh-original-english-size:10px;}
+summary{--hh-original-english-size:17px;}
+summary .key-tag{--hh-original-english-size:9px;}
+.detail-text{--hh-original-english-size:16px;}
+.detail-text blockquote{--hh-original-english-size:21px;}
+.pause h3{--hh-original-english-size:23px;}
+.pause p{--hh-original-english-size:13px;}
+.utility h2{--hh-original-english-size:30px;}
+.route-row strong{--hh-original-english-size:15px;}
+.route-row small{--hh-original-english-size:11px;}
+.source-item a{--hh-original-english-size:15px;}}
+@media(min-width:1101px){.node-label{--hh-original-english-size:16px;}
+.node-subtitle{--hh-original-english-size:11px;}
+.map-top h2{--hh-original-english-size:26px;}
+.map-bottom{--hh-original-english-size:11px;}}
+.place-overview .stop-photo figcaption{--hh-original-english-size:10px;}
+.topic-count{--hh-original-english-size:14px;--hh-original-english-family:Georgia,serif;}
+.topic-link strong{--hh-original-english-size:19px;--hh-original-english-weight:500;}
+.topic-link small{--hh-original-english-size:11px;}
+.topic-plus{--hh-original-english-size:24px;--hh-original-english-weight:300;}
+.personal-photos>span{--hh-original-english-size:13px;}
+.personal-photos p{--hh-original-english-size:14px;}
+.personal-photos small{--hh-original-english-size:11px;}
+.quiet-button{--hh-original-english-size:12px;}
+.visit-kicker{--hh-original-english-size:12px;--hh-original-english-spacing:.06em;}
+.visit-panel h2{--hh-original-english-size:40px;}
+.visit-deck{--hh-original-english-size:19px;}
+.visit-thumbs .image-open span{--hh-original-english-size:9px;}
+.visit-summary{--hh-original-english-size:16px;}
+.visit-topic strong{--hh-original-english-size:18px;}
+.visit-note{--hh-original-english-size:11px;}
+.sheet-head #backPlace,.sheet-head #backLesson{--hh-original-english-size:13px;}
+.lesson-prose{--hh-original-english-size:18px;}
+.lesson-prose blockquote{--hh-original-english-size:25px;--hh-original-english-family:serif;}
+.book-link>span{--hh-original-english-size:11px;--hh-original-english-spacing:.1em;}
+.book-link strong{--hh-original-english-size:20px;--hh-original-english-weight:500;}
+.book-link small{--hh-original-english-size:12px;}
+.lesson-prompt>span{--hh-original-english-size:11px;}
+.lesson-prompt h3{--hh-original-english-size:25px;}
+.lesson-prompt summary{--hh-original-english-size:13px;}
+.lesson-prompt p{--hh-original-english-size:15px;}
+.book-breadcrumb{--hh-original-english-size:14px;}
+.content-label{--hh-original-english-size:11px;--hh-original-english-spacing:.08em;}
+.book-extract blockquote{--hh-original-english-family:serif;--hh-original-english-size:27px;}
+.book-extract small{--hh-original-english-size:12px;}
+.book-summary p,.book-connection p{--hh-original-english-size:18px;}
+.book-question h3{--hh-original-english-size:26px;}
+@media(max-width:1000px){.museum-columns h2{--hh-original-english-size:30px;}
+.visit-deck{--hh-original-english-size:17px;}
+.topic-link strong{--hh-original-english-size:17px;}}
+@media(max-width:750px){.topic-link strong{--hh-original-english-size:17px;}
+.topic-count{--hh-original-english-size:12px;}
+.topic-link small{--hh-original-english-size:10px;}
+.visit-panel h2{--hh-original-english-size:32px;}
+.visit-deck{--hh-original-english-size:18px;}
+.visit-summary{--hh-original-english-size:16px;}
+.lesson-prose{--hh-original-english-size:17px;}
+.book-link strong{--hh-original-english-size:18px;}
+.book-link small{--hh-original-english-size:11px;}
+.book-extract blockquote{--hh-original-english-size:24px;}
+.book-summary p,.book-connection p{--hh-original-english-size:17px;}
+.book-breadcrumb{--hh-original-english-size:12px;}
+.book-question h3{--hh-original-english-size:23px;}
+.lesson-prompt h3{--hh-original-english-size:23px;}}
+#backExplanation{--hh-original-english-size:13px;}
+.explanation-link{--hh-original-english-size:13px;}
+.visit-copy h3{--hh-original-english-size:25px;}
+.static-node .node-label{--hh-original-english-weight:500;}
+.stele-gallery-note{--hh-original-english-size:12px;}
+.stele-piece figcaption{--hh-original-english-size:11px;}
+.map-north{--hh-original-english-size:11px;--hh-original-english-spacing:.1em;}
+.map-north span{--hh-original-english-size:28px;--hh-original-english-family:serif;}
+@media(max-width:750px){.map-north{--hh-original-english-size:9px;}
+.map-north span{--hh-original-english-size:24px;}
+.node-label{--hh-original-english-size:10px;}
+.node-subtitle{--hh-original-english-size:8px;}}
+.group-only-link{--hh-original-english-size:27px;--hh-original-english-family:"Songti SC",STSong,serif;}
+.exhibition-links button{--hh-original-english-size:18px;}
+@media(max-width:750px){.exhibition-links button{--hh-original-english-size:16px;}}
+.strategy-open{--hh-original-english-size:20px;}
+#strategyBack{--hh-original-english-size:13px;}
+.strategy-date{--hh-original-english-size:16px;}
+@media(max-width:750px){.strategy-open{--hh-original-english-size:18px;}}
+#themeTitle{--hh-original-english-family:"Songti SC",STSong,"Noto Serif CJK SC",serif;--hh-original-english-size:clamp(44px,7.8vw,112px);--hh-original-english-weight:600;--hh-original-english-spacing:.055em;}
+@media(max-width:750px){#themeTitle{--hh-original-english-size:clamp(38px,9vw,64px);}}
+.map-top h2{--hh-original-english-spacing:.055em;}
+[data-scene] .stop-kicker{--hh-original-english-spacing:.09em;}
+[data-scene] figcaption{--hh-original-english-size:11px;}
+[data-scene] .topic-count{--hh-original-english-family:Georgia,serif;--hh-original-english-size:18px;}
+[data-scene] .topic-link strong{--hh-original-english-size:19px;--hh-original-english-spacing:.02em;}
+@media(max-width:750px){[data-scene] .topic-link strong{--hh-original-english-size:17px;}
+[data-scene] .topic-count{--hh-original-english-size:16px;}}
+body{--hh-original-english-family:var(--font-reading);}
+h1,h2,h3{--hh-original-english-family:var(--font-display);}
+[data-scene] h2{--hh-original-english-weight:600;--hh-original-english-spacing:.055em;}
+[data-scene] h3{--hh-original-english-weight:600;--hh-original-english-spacing:.035em;}
+[data-scene="steles"] h2,[data-scene="leaders"] h2{--hh-original-english-spacing:.09em;}
+[data-scene] .topic-link strong{--hh-original-english-family:var(--font-display);--hh-original-english-weight:600;}
+[data-scene] .lesson-prose{--hh-original-english-family:var(--font-reading);--hh-original-english-size:19px;--hh-original-english-spacing:.02em;}
+[data-scene] .lesson-prose blockquote{--hh-original-english-family:var(--font-display);}
+[data-scene] .book-breadcrumb strong{--hh-original-english-weight:600;--hh-original-english-spacing:.04em;}
+[data-scene] .group-only-link{--hh-original-english-family:var(--font-display);}
+@media(max-width:750px){[data-scene] .lesson-prose{--hh-original-english-size:17px;--hh-original-english-spacing:.01em;}
+[data-scene] h2{--hh-original-english-spacing:.035em;}
+[data-scene="steles"] h2,[data-scene="leaders"] h2{--hh-original-english-spacing:.06em;}}
+#themeBack{--hh-original-english-size:16px;--hh-original-english-spacing:.14em;}
+@media(max-width:750px){#themeBack{--hh-original-english-size:15px;}}
+#placeDialog .place-overview>h2{--hh-original-english-size:clamp(29px,3vw,46px);}
+.museum-paper .visit-panel>h2{--hh-original-english-size:clamp(29px,3vw,46px);}
+.paper-tab{--hh-original-english-family:var(--font-display);--hh-original-english-size:16px;--hh-original-english-weight:600;--hh-original-english-spacing:.11em;}
+.paper-tab-mark{--hh-original-english-family:var(--font-reading);--hh-original-english-size:22px;--hh-original-english-spacing:0;}
+@media(max-width:750px){#placeDialog .place-overview>h2,.museum-paper .visit-panel>h2{--hh-original-english-size:28px;}
+.paper-tab{--hh-original-english-size:14px;}
+.paper-tab-mark{--hh-original-english-size:19px;}}
+@media(max-width:750px){.hotspot-number{--hh-original-english-size:9px;}}
+@media(max-width:750px){.intro-title{--hh-original-english-size:clamp(20px,5.9vw,26px);}}
+.map-video-entry{--hh-original-english-family:inherit;}
+#videoTitle{--hh-original-english-size:20px;}
+.video-footer{--hh-original-english-size:13px;}
+@media(max-width:750px){#videoTitle{--hh-original-english-size:18px;}}
+#placeDialog>.sheet-head>#backMap{--hh-original-english-size:12px;}
+#placeDialog :is(.stop-photo,.detail-photo) figcaption{--hh-original-english-size:12px;}
+@media(max-width:750px){#placeDialog>.sheet-head>#backMap{--hh-original-english-size:0;}
+#placeDialog>.sheet-head>#backMap::before{--hh-original-english-size:22px;--hh-original-english-family:sans-serif;}
+#placeDialog :is(.stop-photo,.detail-photo) figcaption{--hh-original-english-size:10px;}}
+#imageDialog>.utility-head{--hh-original-english-size:12px;}
+#imageDialog .icon-close{--hh-original-english-size:25px;}
+#imageDialog>#imageCaption{--hh-original-english-size:12px;}
+#imageDialog>#imageSource{--hh-original-english-size:12px;}
+@media(max-width:750px){#imageDialog>.utility-head{--hh-original-english-size:11px;}}
+/* Classroom reading hierarchy; original English metrics are preserved separately. */
+html, body, body *, body *::before, body *::after { font-family: "Microsoft YaHei", sans-serif !important; }
+body { font-size: 18px !important; line-height: 1.75; }
+body * { font-size: 1em !important; }
+body { -webkit-text-stroke: .08px currentColor; }
+body :is(h1,h2,h3,h4), body :is(h1,h2,h3,h4) *, body .icon-close, body .hh-original-english { -webkit-text-stroke: 0 !important; }
+body :is(h1,h2,h3,h4), body :is(h1,h2,h3,h4) * { font-family: "SimSun", "宋体", serif !important; }
+body h1 { font-size: 42px !important; line-height: 1.45 !important; }
+body h2 { font-size: 44px !important; line-height: 1.5 !important; }
+body h3 { font-size: 30px !important; line-height: 1.55 !important; }
+body h4 { font-size: 26px !important; line-height: 1.6 !important; }
+body :is(p,li,blockquote,dd,dt) { font-size: 24px !important; line-height: 1.95; }
+body button { font-size: 18px !important; line-height: 1.6; }
+body :is(a,summary) { overflow-wrap: anywhere; }
+body :is(small,figcaption), body .small-note, body .content-label, body .book-breadcrumb, body .book-extract>span, body .book-connection>span { font-size: 16px !important; line-height: 1.75 !important; }
+header { height: auto; min-height: 85px; flex-wrap: wrap; padding-top: 16px; padding-bottom: 16px; }
+.brand { font-size: 24px !important; }
+.brand .seal { font-size: 32px !important; width: 48px; height: 50px; }
+.brand small { font-size: 16px !important; }
+.header-tools { flex-wrap: wrap; }
+.header-tools button { font-size: 18px !important; }
+.intro-title { font-size: 42px !important; }
+.intro .theme { font-size: 20px !important; line-height: 1.85 !important; }
+.intro .instruction { font-size: 18px !important; line-height: 1.85 !important; }
+.intro .place-list button { font-size: 18px !important; line-height: 1.75 !important; }
+.intro .place-list b { font-size: 18px !important; }
+.intro .course { font-size: 16px !important; line-height: 1.85 !important; }
+.map-top { flex-wrap: wrap; align-items: flex-start; gap: 14px; }
+.map-top h2 { font-size: 32px !important; line-height: 1.5 !important; }
+.map-tag { font-size: 16px !important; }
+.map-bottom, .map-bottom p, footer, footer>span { font-size: 16px !important; line-height: 1.75 !important; }
+footer { flex-wrap: wrap; }
+.hotspot-number, .node-number { font-size: 16px !important; }
+.suyu-map-label { font-size: clamp(9px,1.15vw,18px) !important; left: 50%; right: auto; transform: translateX(-50%); width: max-content; min-width: 100%; white-space: nowrap; }
+.sheet-head { gap: 10px; }
+.sheet-head>span { font-size: 16px !important; min-width: 0; overflow-wrap: anywhere; white-space: normal; line-height: 1.55; }
+.sheet-head button { flex-shrink: 0; }
+.sheet-head :is(#backMap,#backPlace,#backLesson,#backExplanation,#strategyBack), .quiet-button { font-size: 18px !important; }
+#placeDialog>.sheet-head>#backMap { font-size: 16px !important; padding: 8px 10px; }
+.icon-close { font-size: 30px !important; line-height: 1 !important; }
+.stop-kicker, .visit-kicker, .strategy-date { font-size: 16px !important; line-height: 1.75 !important; }
+.stop-intro, .visit-deck, .visit-note { font-size: 22px !important; line-height: 1.9 !important; }
+.topic-link, .visit-topic { font-size: 20px !important; }
+.topic-link strong, .visit-topic strong { font-family: "Microsoft YaHei", sans-serif !important; font-size: 24px !important; line-height: 1.55 !important; }
+.topic-link :is(span,small), .topic-count, .topic-plus { font-size: 18px !important; line-height: 1.6 !important; }
+.lesson-prose, .lesson-prose p, .lesson-prose li, .lesson-prose blockquote, .book-summary, .book-summary p, .book-connection p, .book-extract p, .book-extract blockquote, .strategy-copy, .strategy-copy p, .source-item p, .route-row p, .utility>p, .end-question p { font-size: 24px !important; line-height: 1.95 !important; }
+.lesson-prose, .strategy-copy { overflow-wrap: anywhere; }
+.lesson-prose, .lesson-prose :is(p,li,blockquote), .book-summary, .book-summary p, .book-connection p, .book-extract :is(p,blockquote), .strategy-copy, .strategy-copy p, .source-item p, .route-row p, .utility>p, .end-question p, .lesson-prompt p, .book-question p { -webkit-text-stroke: .14px currentColor; }
+.lesson-prompt p, .book-question p { font-size: 22px !important; line-height: 1.9 !important; }
+.lesson-prompt>span, .book-link>span, .book-link small, .book-connection>span { font-size: 16px !important; line-height: 1.75 !important; }
+.lesson-prompt h3, .book-question h3, .book-link strong { font-size: 28px !important; line-height: 1.6 !important; }
+.book-link { font-size: 20px !important; white-space: normal; }
+.quiet-button, .strategy-open, .exhibition-links button, .group-only-link { font-size: 20px !important; line-height: 1.65 !important; }
+.source-item h3, .route-row h3 { font-size: 28px !important; }
+.source-item a, .source-item .small-note, .stele-gallery-note, .stele-piece figcaption { font-size: 16px !important; line-height: 1.8 !important; }
+.route-row>span, .route-row small { font-size: 18px !important; }
+.paper-tab, .paper-tab-label { font-size: 18px !important; }
+.paper-tab { width: 52px; }
+.paper-tab-mark { font-size: 24px !important; }
+#placeDialog :is(.stop-photo,.detail-photo) figcaption { font-size: 16px !important; line-height: 1.75 !important; }
+#imageDialog>.utility-head { font-size: 16px !important; }
+#imageDialog>#imageCaption, #imageDialog>#imageSource { font-size: 16px !important; line-height: 1.75 !important; }
+#imageDialog>#imageCaption { max-height: 3.5em; }
+#themeTitle { font-size: clamp(48px,7.8vw,112px) !important; line-height: 1.55 !important; }
+#themeBack { font-size: 22px !important; }
+#videoTitle { font-size: 30px !important; }
+.video-footer button, .video-footer a { font-size: 18px !important; line-height: 1.65; }
+/* Spans contain the exact original text; only Latin font metrics are restored. */
+html body .hh-original-english { font-family: var(--hh-original-english-family,"Microsoft YaHei",sans-serif) !important; font-size: var(--hh-original-english-size,16px) !important; font-weight: var(--hh-original-english-weight,400) !important; letter-spacing: var(--hh-original-english-spacing,normal) !important; line-height: inherit; }
+@media(min-width:751px) { main { grid-template-columns: 350px minmax(0,1fr); } }
+@media(max-width:750px) {
+  body { font-size: 17px !important; }
+  .intro { display: flex; flex-direction: column; }
+  .intro .theme { margin-top: 12px; align-self: flex-start; }
+  body h1, .intro-title { font-size: 32px !important; }
+  body h2 { font-size: 32px !important; }
+  body h3 { font-size: 26px !important; }
+  body h4 { font-size: 24px !important; }
+  body :is(p,li,blockquote,dd,dt) { font-size: 22px !important; line-height: 1.9; }
+  .brand { font-size: 22px !important; }
+  .header-tools button { font-size: 16px !important; }
+  .intro .theme { font-size: 18px !important; }
+  .intro .instruction, .intro .place-list button, .intro .place-list b { font-size: 16px !important; }
+  .map-top h2 { font-size: 26px !important; }
+  .map-bottom, .map-bottom p, footer, footer>span { font-size: 16px !important; }
+  .sheet-head { padding: 12px; gap: 8px; }
+  .sheet-head>span { font-size: 16px !important; }
+  .sheet-head :is(#backPlace,#backLesson,#backExplanation,#strategyBack) { font-size: 16px !important; }
+  #placeDialog>.sheet-head>#backMap { font-size: 0 !important; padding: 0; }
+  .sheet-content { padding: 28px 20px 40px; }
+  .lesson-prose, .lesson-prose p, .lesson-prose li, .lesson-prose blockquote, .book-summary, .book-summary p, .book-connection p, .book-extract p, .book-extract blockquote, .strategy-copy, .strategy-copy p, .source-item p, .route-row p, .utility>p, .end-question p { font-size: 22px !important; line-height: 1.9 !important; }
+  .topic-link strong, .visit-topic strong { font-size: 22px !important; }
+  .topic-link :is(span,small), .topic-count, .topic-plus { font-size: 16px !important; }
+  .paper-tab { width: 46px; }
+  .paper-tab, .paper-tab-label { font-size: 16px !important; }
+  .lesson-prompt h3, .book-question h3, .book-link strong, .source-item h3, .route-row h3 { font-size: 26px !important; }
+  #themeTitle { font-size: clamp(36px,7.8vw,60px) !important; }
+  #videoTitle { font-size: 26px !important; }
+}
